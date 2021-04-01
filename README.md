@@ -27,24 +27,30 @@ After publishing of the [daily press release](https://www.info.gov.hk/gia/genera
   - Update Sinovac CVC Doses (Row 30)
   - Update GOPC Doses (Row 48)
   - Update Private Clinic Doses (Row 49)
-3. [Appointments](https://docs.google.com/spreadsheets/d/1V3i6IDeaAInmR_cXdWdHLMV0iGC4cBc6BsNdrbTAVLw/edit#gid=1085462531)
+3. [Doses by Venue](https://docs.google.com/spreadsheets/d/1V3i6IDeaAInmR_cXdWdHLMV0iGC4cBc6BsNdrbTAVLw/edit#gid=512477663)
+  - Run `./venue.sh | pbcopy` and paste into Rows 3-6.
+4. [Doses by Age](https://docs.google.com/spreadsheets/d/1V3i6IDeaAInmR_cXdWdHLMV0iGC4cBc6BsNdrbTAVLw/edit#gid=1756790307)
+  - Run `./age.sh | pbcopy` and paste into Rows 3-10.
+5. [Doses by Gender](https://docs.google.com/spreadsheets/d/1V3i6IDeaAInmR_cXdWdHLMV0iGC4cBc6BsNdrbTAVLw/edit#gid=434136726)
+  - Run `./gender.sh | pbcopy` and paste into Rows 3-4.
+6. [Appointments](https://docs.google.com/spreadsheets/d/1V3i6IDeaAInmR_cXdWdHLMV0iGC4cBc6BsNdrbTAVLw/edit#gid=1085462531)
   - Update Sinovac Appointments Made (Row 4)
   - Update BioNTech Appointments Made (Row 9)
   - If available, update Cumulative Appointments Made
-4. [Attendance](https://docs.google.com/spreadsheets/d/1V3i6IDeaAInmR_cXdWdHLMV0iGC4cBc6BsNdrbTAVLw/edit#gid=1743032585)
+7. [Attendance](https://docs.google.com/spreadsheets/d/1V3i6IDeaAInmR_cXdWdHLMV0iGC4cBc6BsNdrbTAVLw/edit#gid=1743032585)
   - Update Sinovac Received (Attendance Rate) (Row 5)
   - Update BioNTech Received (Attendance Rate) (Row 12)
-5. [Sinovac CoronaVac](https://docs.google.com/spreadsheets/d/1V3i6IDeaAInmR_cXdWdHLMV0iGC4cBc6BsNdrbTAVLw/edit#gid=1878857625)
+8. [Sinovac CoronaVac](https://docs.google.com/spreadsheets/d/1V3i6IDeaAInmR_cXdWdHLMV0iGC4cBc6BsNdrbTAVLw/edit#gid=1878857625)
   - Run `./values.sh sinovac | pbcopy` and paste into Rows 4-7.
   - If new doses have arrived, update Doses Received.
-6. [Sinovac CoronaVac by Program Change](https://docs.google.com/spreadsheets/d/1V3i6IDeaAInmR_cXdWdHLMV0iGC4cBc6BsNdrbTAVLw/edit#gid=442072332)
+9. [Sinovac CoronaVac by Program Change](https://docs.google.com/spreadsheets/d/1V3i6IDeaAInmR_cXdWdHLMV0iGC4cBc6BsNdrbTAVLw/edit#gid=442072332)
   - If there has been a program change, insert a new row and add a note.
   - Insert today's dose numbers.
   - Ensure that the [corresponding chart](https://docs.google.com/spreadsheets/d/1V3i6IDeaAInmR_cXdWdHLMV0iGC4cBc6BsNdrbTAVLw/edit#gid=2007182375) contains all rows and an appropriate amount of lookahead.
-7. [BioNTech Comirnaty](https://docs.google.com/spreadsheets/d/1V3i6IDeaAInmR_cXdWdHLMV0iGC4cBc6BsNdrbTAVLw/edit#gid=1969119955)
+10. [BioNTech Comirnaty](https://docs.google.com/spreadsheets/d/1V3i6IDeaAInmR_cXdWdHLMV0iGC4cBc6BsNdrbTAVLw/edit#gid=1969119955)
   - Run `./values.sh biontech | pbcopy` and paste into Rows 4-7.
   - If new doses have arrived, update Doses Received.
-8. [BioNTech Comirnaty by Program Change](https://docs.google.com/spreadsheets/d/1V3i6IDeaAInmR_cXdWdHLMV0iGC4cBc6BsNdrbTAVLw/edit#gid=918530009)
+11. [BioNTech Comirnaty by Program Change](https://docs.google.com/spreadsheets/d/1V3i6IDeaAInmR_cXdWdHLMV0iGC4cBc6BsNdrbTAVLw/edit#gid=918530009)
   - If there has been a program change, insert a new row and add a note.
   - Insert today's dose numbers.
   - Ensure that the [corresponding chart](https://docs.google.com/spreadsheets/d/1V3i6IDeaAInmR_cXdWdHLMV0iGC4cBc6BsNdrbTAVLw/edit#gid=1950473671) contains all rows and an appropriate amount of lookahead.
