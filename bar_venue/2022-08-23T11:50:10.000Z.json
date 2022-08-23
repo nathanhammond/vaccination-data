@@ -1,0 +1,1 @@
+[{"venue": "CVC", "firstDose": {"sinovac": 1121962, "biontech": 3552423, "total": 4674385}}, {"venue": "GOPC", "firstDose": {"sinovac": 139163, "biontech": 6950, "total": 146113}}, {"venue": "GP", "firstDose": {"sinovac": 1498971, "biontech": 25, "total": 1498996}}, {"venue": "Others", "firstDose": {"sinovac": 251546, "biontech": 229421, "total": 480967}}]
